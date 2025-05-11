@@ -1,0 +1,49 @@
+.container-1 {
+  width: 100%;
+  height: 90vh;
+background: linear-gradient(90deg, #333,#000, #000);
+  margin-top: 110px;
+  z-index: 2;
+
+  
+}
+.section-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 35px;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+   gap: 15px;
+}
+.home-img {
+  width: 90%;
+  border-radius: 15px;
+  padding: 5px;
+  overflow: hidden;
+}
+.home-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* PRE MINRO TEXT */
+.title, .subtitle, .description {
+  color: #edefef;
+}
+.title {
+  font-size: clamp(35px, 6vw, 55px);
+}
+.subtitle {
+  font-size: clamp(19px, 3vw, 34px);
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
